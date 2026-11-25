@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vertebra – The backbone of your business</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <!-- "V" made of two spinal columns that join into one at the bottom -->
+  <defs>
+    <g id="vert">
+      <path fill-rule="evenodd" d="M-5-7H5A6 6 0 0 1 11-1V1A6 6 0 0 1 5 7H-5A6 6 0 0 1-11 1V-1A6 6 0 0 1-5-7ZM-2.2 0a2.2 2.2 0 1 0 4.4 0a2.2 2.2 0 1 0-4.4 0Z"/>
+      <rect x="-16" y="-2.2" width="7" height="4.4" rx="2.2"/>
+      <rect x="9" y="-2.2" width="7" height="4.4" rx="2.2"/>
+    </g>
+    <g id="left-arm">
+      <use href="#vert" transform="translate(10 8) rotate(-34)"/>
+      <use href="#vert" transform="translate(20 23) rotate(-31)"/>
+      <use href="#vert" transform="translate(29 38) rotate(-31)"/>
+      <use href="#vert" transform="translate(37.5 53) rotate(-28)"/>
+      <use href="#vert" transform="translate(44 67) rotate(-18) scale(.92)"/>
+    </g>
+  </defs>
+  <symbol id="vertebra" viewBox="-8 -4 116 128">
+    <use href="#left-arm"/>
+    <use href="#left-arm" transform="translate(100 0) scale(-1 1)"/>
+    <use href="#vert" transform="translate(50 81) scale(.92)"/>
+    <use href="#vert" transform="translate(50 95) scale(.85)"/>
+    <path d="M43.500 104.500h13l-6.500 10z"/>
+  </symbol>
+</svg>
+
+<div class="toolbar no-print">
+  <div class="toolbar-brand"><span class="lockup small" role="img" aria-label="Vertebra"><svg class="lock-v" aria-hidden="true"><use href="#vertebra"/></svg><span>ERTEBRA</span></span></div>
+  <button type="button" onclick="window.print()">🖨 Print / Save Brochure</button>
+</div>
+
+<main>
+
+<!-- PAGE 1 -->
+<section class="page cover">
+  <div class="stripe"></div>
+  <div class="page-inner">
+    <div class="logo-row">
+      <div class="lockup" role="img" aria-label="Vertebra">
+        <svg class="lock-v" aria-hidden="true"><use href="#vertebra"/></svg><span>ERTEBRA</span>
+      </div>
+    </div>
+
+    <div class="cover-main">
+      <h1>The backbone<br>of your <span class="accent">business.</span></h1>
+      <p class="subtitle">Reliable work motorcycles for restaurants, security companies, and every business that keeps moving.</p>
+      <div class="badge">Special introductory offer: <strong>18% off.</strong></div>
+    </div>
+
+    <label class="upload photo-box" title="Click to upload a motorcycle photo">
+      <input type="file" accept="image/*" data-target="photo">
+      <span class="placeholder-text">[ Photo of motorcycle ]<small class="no-print">Click to upload</small></span>
+    </label>
+
+    <div class="contact-strip">
+      <div><b>Phone / WhatsApp</b>0257408422 / 0530815117</div>
+      <div><b>Email</b>vertebraghana@gmail.com</div>
+      <div><b>Location</b>Adabraka, upstairs room above Longview Pharmacy, near ADB Bank</div>
+    </div>
+  </div>
+</section>
+
+<!-- PAGE 2 -->
+<section class="page light">
+  <div class="page-inner">
+    <header class="page-head"><span class="num">01</span><span>Who we are</span><svg class="mini-logo"><use href="#vertebra"/></svg></header>
+    <h2>Every business has a spine. We keep yours moving.</h2>
+    <p class="lead">Vertebra was built on one simple idea: businesses succeed when the things they depend on work without fail. We started with what many companies need most, dependable work motorcycles, and we are growing into a company that can source almost anything your business needs.</p>
+
+    <div class="two-col">
+      <div class="panel dark">
+        <h3>What we believe</h3>
+        <ul>
+          <li>Your time is money, so your vehicles should never let you down.</li>
+          <li>A fair price should come with honest service.</li>
+          <li>Our job does not end when the sale is made. It begins there.</li>
+        </ul>
+      </div>
+      <div class="panel amber">
+        <h3>Why trust us?</h3>
+        <p>Our team understands vehicles and spare parts from the inside. We do not just sell you a motorcycle. We know how to keep it running long after you buy it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PAGE 3 -->
+<section class="page dark-page">
+  <div class="page-inner">
+    <header class="page-head"><span class="num">02</span><span>The offer</span><svg class="mini-logo"><use href="#vertebra"/></svg></header>
+    <h2>Work motorcycles at <span class="accent">18% off.</span></h2>
+
+    <div class="price-compare">
+      <div class="old">Standard market price<strong>GH₵15,500</strong></div>
+      <div class="new">Your Vertebra price<strong>GH₵12,800</strong></div>
+    </div>
+    <p class="lead">The standard market price for a quality work motorcycle is GH₵15,500. Through Vertebra, your price is GH₵12,800. That is <b class="accent">GH₵2,700 saved</b> on every bike.</p>
+
+    <div class="tiers">
+      <div class="tier"><span>1 to 4 bikes</span><strong>GH₵12,800</strong><em>each</em></div>
+      <div class="tier"><span>5 to 9 bikes</span><strong>GH₵12,500</strong><em>each</em></div>
+      <div class="tier"><span>10 or more bikes</span><strong>GH₵12,350</strong><em>each</em></div>
+    </div>
+
+    <div class="included">
+      <h3>Included with every bike</h3>
+      <ul>
+        <li>Half payment on your first service</li>
+        <li>A 2-month warranty</li>
+        <li>A rider helmet</li>
+        <li>A delivery box available at a very affordable price if needed</li>
+        <li>Zero-hassle registration support</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- PAGE 4 -->
+<section class="page light">
+  <div class="page-inner">
+    <header class="page-head"><span class="num">03</span><span>Built for your business</span><svg class="mini-logo"><use href="#vertebra"/></svg></header>
+    <h2>One reliable bike, many ways to put it to work.</h2>
+
+    <div class="cards">
+      <article class="card">
+        <div class="card-no">1</div>
+        <h3>For restaurants and food businesses</h3>
+        <p>Faster deliveries mean hotter food and happier customers. Low fuel use keeps running costs down. A sturdy build handles busy streets all day. Add a delivery box so every order arrives safe and neat.</p>
+      </article>
+      <article class="card">
+        <div class="card-no">2</div>
+        <h3>For security companies</h3>
+        <p>Quick response and wider patrol coverage. Durable enough for daily, demanding use. Easy to maintain, so bikes spend more time on duty and less in the workshop.</p>
+      </article>
+      <article class="card">
+        <div class="card-no">3</div>
+        <h3>For any other business</h3>
+        <p>Couriers, pharmacies, shops, field agents, and more. If your team needs to move quickly and affordably, we have a bike for the job.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PAGE 5 -->
+<section class="page dark-page last">
+  <div class="page-inner">
+    <header class="page-head"><span class="num">04</span><span>How to order</span><svg class="mini-logo"><use href="#vertebra"/></svg></header>
+    <h2>Getting started is <span class="accent">simple.</span></h2>
+
+    <ol class="steps">
+      <li><b>Contact us.</b> Call, message, or visit and tell us what your business needs.</li>
+      <li><b>Get your bikes,</b> delivered ready to work.</li>
+      <li><b>Stay supported,</b> with maintenance help and fast access to spare parts.</li>
+    </ol>
+
+    <div class="promise"><b>Our promise:</b> Quality bikes, honest prices, and support you can count on.</div>
+
+    <div class="cta">
+      <h3>Ready to move your business forward?</h3>
+      <p>Call or WhatsApp us on <b>0257408422 / 0530815117</b>, email <b>vertebraghana@gmail.com</b>, or visit us at <b>Adabraka, upstairs room above Longview Pharmacy, near ADB Bank.</b></p>
+    </div>
+
+    <div class="closing">
+      <div class="lockup big" role="img" aria-label="Vertebra"><svg class="lock-v" aria-hidden="true"><use href="#vertebra"/></svg><span>ERTEBRA</span></div>
+      <p>Vertebra: we supply the backbone of your business.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<script>
+document.querySelectorAll('input[type=file][data-target]').forEach(function (input) {
+  input.addEventListener('change', function () {
+    var file = input.files[0];
+    if (!file) return;
+    var box = input.closest('.upload');
+    box.style.backgroundImage = 'url(' + URL.createObjectURL(file) + ')';
+    box.classList.add('has-image');
+  });
+});
+</script>
+</body>
+</html>
